@@ -1,4 +1,4 @@
-from django.http import HttpResponseRedirect
+from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import get_object_or_404, render
 from django.urls import reverse
 from django.views import generic
@@ -25,7 +25,10 @@ class ResultsView(generic.DetailView):
 
 
 def vote(request, question_id):
-    ... # same as above, no changes needed.
+        return HttpResponse("You're voting on question %s." % question_id)
+   
+
+... # same as above, no changes needed.
 
 
 
