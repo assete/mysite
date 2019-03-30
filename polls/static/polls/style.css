@@ -1,6 +1,15 @@
 li a {
-    color: green;
+    color: blue;
 }
 body {
-    background: blue url("images/background.gif") no-repeat;
+    background-color :pink;
+    background-image : url(/images/background.jpg/orangelamp1.jpg) no-repeat;
 }
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+    

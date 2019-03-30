@@ -8,6 +8,8 @@
     <p>No polls are available.</p>
 {% endif %}
 
-{% load static %}
+{% load static from staticfiles %}
 
 <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+
+<img src="{% static "/images/background.jpg/orange lamp1.jpg/" %}" alt="orange lamp1">
